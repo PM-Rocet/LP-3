@@ -1,4 +1,3 @@
-!pip install pygame
 import pygame
 import time
 
@@ -7,7 +6,7 @@ pygame.init()
 # Глобальные переменные (настройки)
 window_width = 800
 window_height = 600
-fon = 'fon.png'  # изображение должно быть в том же каталоге, что и код
+fon = 'cosmos.jpg'  # изображение должно быть в том же каталоге, что и код
 
 # Запуск
 window = pygame.display.set_mode([window_width, window_height])  # создание окна указанных размеров

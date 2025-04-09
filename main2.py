@@ -1,3 +1,4 @@
+import pygame
 class Player(pygame.sprite.Sprite):
     def __init__(self, filename, hero_x=100, hero_y=250, x_speed=0, y_speed=0):
         pygame.sprite.Sprite.__init__(self)
